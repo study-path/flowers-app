@@ -10,7 +10,11 @@ The application provides a smooth and interactive shopping experience with respo
 
 ### Plant Details
 
-![Plant Details](./public/plant-details.png)
+![Plant Details](./public/plant_details.png)
+
+### Shopping Cart
+
+![Plant Details](./public/user_cart.png)
 
 ## 🚀 Features
 
