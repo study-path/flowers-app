@@ -4,8 +4,7 @@ A modern plant e-commerce application built with React and Tailwind CSS that all
 
 The application provides a smooth and interactive shopping experience with responsive design, animations, user authentication, and dynamic cart functionality.
 
-![Plant List](./screenshots/plant-list.png)
-<img width="1163" height="907" alt="image" src="./screenshots/plant-list.png" />
+![Plant List](/plant-list.png)
 
 ## 🚀 Features
 
