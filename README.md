@@ -41,7 +41,6 @@ Users can manage their shopping experience:
   - Total number of items
   - Cart subtotal price
   - Product details
-- Modify product quantities
 - Remove items from the cart
 
 
