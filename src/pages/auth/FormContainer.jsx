@@ -8,6 +8,7 @@ const FormContainer = (props) => {
           className="h-screen object-cover"
         />
         {/* adjust image color to dark and green */}
+
         <div className="absolute top-0 left-0 w-full h-full bg-black/10"></div>
         <div className="absolute top-0 left-0 w-full h-full bg-green-700/30"></div>
       </div>
@@ -19,7 +20,7 @@ const FormContainer = (props) => {
             className="w-16 mb-2"
           />
 
-          <div className="font-playfair text-emerald-700 text-3xl">
+          <div className="font-playfair text-emerald-700 text-3xl my-3">
             Home Plants
           </div>
           {children}
