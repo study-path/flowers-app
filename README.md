@@ -1,6 +1,6 @@
 # 🌱 Flowers Shop - Plant E-Commerce Website
 
-A modern plant e-commerce application built with React and Tailwind CSS that allows users to explore available plants, view detailed product information, customize selections, and manage their shopping cart.
+A modern plant e-commerce application built with React and Tailwind CSS that allows users to explore available plants, view detailed product information, customize selections, and manage their shopping cart!.
 
 The application provides a smooth and interactive shopping experience with responsive design, animations, user authentication, and dynamic cart functionality.
 
