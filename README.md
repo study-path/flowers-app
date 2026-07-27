@@ -1,16 +1,56 @@
-# React + Vite
+# 🌱 Flowers Shop - Plant E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern plant e-commerce application built with React and Tailwind CSS that allows users to explore available plants, view detailed product information, customize selections, and manage their shopping cart.
 
-Currently, two official plugins are available:
+The application provides a smooth and interactive shopping experience with responsive design, animations, user authentication, and dynamic cart functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Plant List](./screenshots/plant-list.png)
+<img width="1163" height="907" alt="image" src="./screenshots/plant-list.png" />
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔐 User Authentication
 
-## Expanding the ESLint configuration
+- Users can create a new account and sign in.
+- Authentication is handled using JWT tokens.
+- Registered users can access available plants currently in stock.
+- Provides a personalized shopping experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌿 Plant Catalog
+
+- Browse available plants with a clean and modern interface.
+- Display plants dynamically from the application data source.
+- Smooth scrolling experience with interactive animations.
+- Responsive design optimized for desktop, tablet, and mobile devices.
+
+## 🌱 Plant Details Page
+
+Users can view detailed information about each plant:
+
+- Plant name and description
+- Product images with zoom functionality
+- Available pot colors
+- Ability to select different product options
+- Ability to choose quantity before adding to cart
+
+## 🛒 Shopping Cart
+
+Users can manage their shopping experience:
+
+- Add multiple plants to the cart
+- Add different quantities of the same plant
+- View all selected products
+- Display:
+  - Total number of items
+  - Cart subtotal price
+  - Product details
+- Remove items from the cart
+
+# 🛠️ Technologies Used
+
+## Front-End
+
+- **React 19**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **Vite**
