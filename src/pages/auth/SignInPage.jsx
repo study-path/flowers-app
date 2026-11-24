@@ -36,7 +36,7 @@ const SignInPage = () => {
             const data = await response.json();
 
             if (response.status === 201) {
-              sessionContext.signIn(data.capstone_session_token);
+              sessionContext.signIn(data.session_token);
               navigate("/plants");
               setError("");
             } else {

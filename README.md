@@ -67,3 +67,44 @@ Users can manage their shopping experience:
 - **JavaScript (ES6+)**
 - **Tailwind CSS**
 - **Vite**
+
+## Back-End
+
+- **REST API** on **Vercel Serverless Functions** (Node.js), in the [`api/`](./api) folder
+- **PostgreSQL** on **Neon** — tables `users`, `plants`, `plant_images`, `cart_items`
+- **bcrypt** password hashing and **JWT** sessions (7-day expiry)
+- Embedded Postgres (**PGlite**) for local development, so no account is needed to run it
+
+# 🔌 API
+
+| Method   | Endpoint                     | Auth | Description                              |
+| -------- | ---------------------------- | ---- | ---------------------------------------- |
+| `POST`   | `/api/users`                 |      | Create an account                        |
+| `POST`   | `/api/users/session`         |      | Sign in, returns `{ session_token }`     |
+| `GET`    | `/api/plants`                |      | All plants with their pot-color images   |
+| `GET`    | `/api/plants/:id`            |      | One plant                                |
+| `GET`    | `/api/cart`                  | ✓    | The signed-in user's cart                |
+| `POST`   | `/api/cart/plants/:plantId`  | ✓    | Add `{ quantity, pot_color }` to cart    |
+| `DELETE` | `/api/cart/:id`              | ✓    | Remove a cart item                       |
+
+Authenticated requests send `Authorization: Bearer <session_token>`.
+
+# 💻 Run Locally
+
+```bash
+npm install
+npm run dev:api   # terminal 1 – API on http://localhost:3001 with a local database
+npm run dev       # terminal 2 – app on http://localhost:5173 (proxies /api)
+```
+
+The local database is stored in `.local-db/` and filled from [`data/plants.json`](./data/plants.json).
+
+# 🚀 Deploy (Vercel + Neon)
+
+1. In the Vercel project: **Storage → Create Database → Neon (Postgres)** and connect it. This adds `DATABASE_URL`.
+2. Add an environment variable `JWT_SECRET` with a long random value.
+3. Copy the connection string from the Neon dashboard (**Connect**) into a file named `.env.local` as `DATABASE_URL=...`, then create the tables and load the plants once:
+   ```bash
+   npm run db:seed
+   ```
+4. Push to GitHub — Vercel builds the app and deploys the `api/` functions together.
