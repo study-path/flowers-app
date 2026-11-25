@@ -43,7 +43,7 @@ const AuthForm = (props) => {
             {submitButtonLabel}
             {loading && (
               <div className="absolute top-0 right-4 flex items-center h-full">
-                <i className="animate-spin fa-solid fa-spinner-third text-green-400 text-xl"></i>
+                <i className="animate-spin fa-solid fa-spinner text-green-400 text-xl"></i>
               </div>
             )}
           </button>
