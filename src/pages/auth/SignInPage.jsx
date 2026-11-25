@@ -21,6 +21,16 @@ const SignInPage = () => {
             Account created successfully. Please sign in.
           </div>
         )}
+        {sessionContext.justSignedOut &&
+          !location.state?.accountCreated &&
+          !error && (
+            <div
+              role="status"
+              className="text-emerald-700 border border-emerald-700 rounded-lg p-4 mt-2"
+            >
+              You have signed out. See you soon!
+            </div>
+          )}
 
         <AuthForm
           fields={[

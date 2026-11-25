@@ -14,7 +14,8 @@ const CartModal = () => {
   const fetchCart = useCallback(async () => {
     setIsLoading(true);
     const response = await cartService.getCart();
-    setPlants(await response.json());
+    // an error response is not a list of items, so show an empty cart instead
+    setPlants(response.ok ? await response.json() : []);
     setIsLoading(false);
   }, []);
 
