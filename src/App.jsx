@@ -14,16 +14,21 @@ const App = () => {
   const [sessionToken, setSessionToken] = useState(() =>
     userService.getSessionTokenStorage(),
   );
+  // true right after signing out, so the sign-in page can confirm it
+  const [justSignedOut, setJustSignedOut] = useState(false);
 
   return (
     <SessionContext.Provider
       value={{
         username: sessionToken ? jwtDecode(sessionToken).username : null,
+        justSignedOut,
         signIn: (token) => {
+          setJustSignedOut(false);
           setSessionToken(token);
           userService.setSessionTokenStorage(token);
         },
         signOut: () => {
+          setJustSignedOut(true);
           setSessionToken(null);
           userService.removeSessionTokenStorage();
         },
