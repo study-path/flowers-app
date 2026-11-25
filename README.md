@@ -108,3 +108,7 @@ The local database is stored in `.local-db/` and filled from [`data/plants.json`
    npm run db:seed
    ```
 4. Push to GitHub — Vercel builds the app and deploys the `api/` functions together.
+
+# 🎨 Images
+
+The logo and plant pictures were generated with Google Gemini from text descriptions; the logo was then traced to SVG. The shop, its prices and its products are fictional.

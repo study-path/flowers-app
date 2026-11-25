@@ -1,1214 +1,190 @@
 [
   {
-    "id": 29,
-    "name": "Gold Pothos",
-    "botanical_name": "Epipremnum aureum",
-    "price": 27,
-    "description": "Gold Pothos, also known as Devil's Ivy, is a popular houseplant admired for its heart-shaped leaves with yellow variegation. It is a hardy, low-maintenance plant that can thrive in a variety of light conditions, making it ideal for beginners.",
-    "images": [
-      {
-        "pot_color": "white",
-        "src": "/images/plants/29-gold-pothos-white.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/29-gold-pothos-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light but can tolerate low light. Water when the top inch of soil is dry, allowing excess water to drain away. Use a well-draining potting mix and a pot with drainage holes. Fertilize every 2-3 months during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 43,
-    "name": "Baltic Pothos",
-    "botanical_name": "Epipremnum aureum (baltic blue)",
-    "price": 57,
-    "description": "The Baltic Pothos is a popular trailing houseplant with heart-shaped leaves featuring a striking blue-green hue. It's known for its ease of care and ability to thrive in a variety of indoor conditions.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/43-baltic-pothos-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/43-baltic-pothos-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/43-baltic-pothos-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/43-baltic-pothos-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/43-baltic-pothos-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light but can adapt to low light. Water when the top inch of soil is dry, and ensure good drainage. It thrives in normal indoor humidity and benefits from occasional feeding with a balanced fertilizer during the growing season."
-    }
-  },
-  {
-    "id": 7,
-    "name": "Smoll Money Tree",
-    "botanical_name": "Pachira aquatica",
-    "price": 37,
-    "description": "The Small Money Tree is a popular indoor plant known for its braided trunk and lush, green leaves. It's often associated with bringing good luck and prosperity to its owner.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/7-smoll-money-tree-stone.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/7-smoll-money-tree-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/7-smoll-money-tree-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Small Money Tree in bright, indirect light. Water it thoroughly when the top inch of soil is dry, but avoid letting it sit in water. Maintain moderate humidity and fertilize once a month during the growing season with a balanced liquid fertilizer."
-    }
-  },
-  {
-    "id": 30,
-    "name": "Freddie Calathea",
-    "botanical_name": "Calathea concinna",
-    "price": 37,
-    "description": "Freddie Calathea is a stunning houseplant known for its elongated, lance-shaped leaves adorned with dark green stripes on a light green background. Its striking foliage makes it a popular choice for adding a touch of tropical beauty to indoor spaces.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/30-freddie-calathea-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/30-freddie-calathea-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/30-freddie-calathea-sky.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light and avoid direct sunlight. Keep the soil consistently moist but not waterlogged, and ensure high humidity by misting regularly or using a humidity tray. Use a well-draining, peat-based potting mix. Fertilize monthly during the growing season with a diluted balanced fertilizer."
-    }
-  },
-  {
-    "id": 23,
-    "name": "Money Tree Braid",
-    "botanical_name": "Pachira aquatica",
-    "price": 57,
-    "description": "The Money Tree Braid is a popular indoor plant known for its braided trunk and lush, green foliage. It is often associated with bringing good luck and prosperity to its owners. This unique braided look will stand out from the crowd.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/23-money-tree-braid-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/23-money-tree-braid-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/23-money-tree-braid-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/23-money-tree-braid-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/23-money-tree-braid-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Money Tree Braid in bright, indirect light. Water it thoroughly when the top inch of soil is dry, and ensure the pot has good drainage. Maintain a humid environment by misting the leaves or using a humidity tray. Fertilize monthly during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 10,
-    "name": "Red Prayer Plant",
-    "botanical_name": "Maranta leuconeura",
-    "price": 37,
-    "description": "The Red Prayer Plant is known for its striking, colorful foliage featuring deep green leaves with red veins and a unique pattern. Its leaves fold up at night, resembling hands in prayer, which gives the plant its common name.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/10-red-prayer-plant-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/10-red-prayer-plant-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/10-red-prayer-plant-sky.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light and keep the soil consistently moist but not waterlogged. Maintain high humidity by misting regularly or using a humidity tray. Fertilize every 2-4 weeks during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 31,
-    "name": "Fiddle Leaf Fig",
-    "botanical_name": "Ficus lyrata",
-    "price": 217,
-    "description": "The Fiddle Leaf Fig is a trendy houseplant known for its large, violin-shaped leaves and tall, sculptural growth habit. It is a statement plant that can add a bold, architectural element to any room.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/31-fiddle-leaf-fig-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/31-fiddle-leaf-fig-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/31-fiddle-leaf-fig-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/31-fiddle-leaf-fig-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/31-fiddle-leaf-fig-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light near a south or west-facing window. Water when the top inch of soil is dry, ensuring thorough watering and allowing excess water to drain away. Use a well-draining potting mix and a pot with drainage holes. Fertilize every 4-6 weeks during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 44,
-    "name": "Aglaonema Siam",
-    "botanical_name": "Aglaonema siam aurora",
-    "price": 37,
-    "description": "Aglaonema Siam is a striking indoor plant known for its vibrant red and green leaves. Its colorful foliage adds a bold, decorative touch to any indoor setting",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/44-aglaonema-siam-stone.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/44-aglaonema-siam-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/44-aglaonema-siam-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in low to bright indirect light, avoiding direct sunlight which can scorch the leaves. Water thoroughly when the top inch of soil is dry, and ensure the pot has good drainage. Prefers moderate humidity and benefits from occasional feeding with a balanced fertilizer during the growing season."
-    }
-  },
-  {
-    "id": 8,
-    "name": "Silver Pothos",
-    "botanical_name": "Scindapsus pictus",
-    "price": 47,
-    "description": "The Silver Pothos is a vining plant admired for its heart-shaped leaves with distinctive silver variegation. It's an excellent choice for hanging baskets or as a trailing plant on shelves.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/8-silver-pothos-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/8-silver-pothos-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/8-silver-pothos-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/8-silver-pothos-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Silver Pothos in low to bright, indirect light. Allow the top inch of soil to dry out between waterings. This plant appreciates occasional misting to increase humidity and should be fertilized every 2-3 months with a diluted houseplant fertilizer."
-    }
-  },
-  {
-    "id": 33,
-    "name": "Easy Care Set",
-    "botanical_name": "Mixed Group",
-    "price": 67,
-    "description": "No fuss plants. This group of three low-maintenance and drought tolerant plants make plant care a breeze and look cute at the same time. This trio, including the Ponytail Palm, Sansevieria Hahnii, and the Sansevieria Laurentii Superba, makes a great gift for the beginner plant parent in your life.",
-    "images": [
-      {
-        "pot_color": "white",
-        "src": "/images/plants/33-easy-care-set-white.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/33-easy-care-set-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Water when the soil is fully dry and you can't go wrong."
-    }
-  },
-  {
-    "id": 3,
-    "name": "Variegated Schefflera",
-    "botanical_name": "Schefflera arboricola variegata",
-    "price": 87,
-    "description": "The Variegated Schefflera, also known as the Dwarf Umbrella Tree, is an attractive houseplant featuring glossy green leaves splashed with creamy yellow or white variegation. Its vibrant foliage adds a tropical feel to indoor spaces, making it a popular decorative choice.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/3-variegated-schefflera-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/3-variegated-schefflera-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/3-variegated-schefflera-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/3-variegated-schefflera-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/3-variegated-schefflera-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Variegated Schefflera in bright, indirect light, although it can tolerate lower light conditions. Water the plant when the top inch of soil feels dry, ensuring proper drainage to prevent root rot. Maintain moderate humidity levels and fertilize monthly during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 28,
-    "name": "Guzmania Bromeliad",
-    "botanical_name": "Guzmania bromeliad",
-    "price": 37,
-    "description": "Guzmania Bromeliads are tropical plants known for their vibrant, long-lasting flowers and striking, glossy green leaves. These epiphytic plants often feature a rosette of leaves with a central flower spike, adding a splash of color to any indoor space.",
-    "images": [
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/28-guzmania-bromeliad-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/28-guzmania-bromeliad-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light. Keep the central cup filled with water and maintain high humidity by misting regularly. Use well-draining soil and water the soil moderately, ensuring it dries out between waterings. Fertilize monthly during the growing season with a balanced, diluted fertilizer."
-    }
-  },
-  {
-    "id": 14,
-    "name": "Ponytail Palm Tree",
-    "botanical_name": "Beaucarnea recurvata",
-    "price": 127,
-    "description": "The Ponytail Palm, also known as the Elephant Foot Tree, is a unique houseplant with a swollen trunk base and long, arching, strap-like leaves. Despite its name, it is not a true palm and is known for its drought tolerance.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/14-ponytail-palm-tree-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/14-ponytail-palm-tree-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/14-ponytail-palm-tree-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/14-ponytail-palm-tree-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/14-ponytail-palm-tree-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Ponytail Palm in bright light to full sun. Allow the soil to dry out completely between waterings, and water sparingly to avoid root rot. Use a well-draining potting mix and a pot with drainage holes. Fertilize sparingly, about once or twice a year, with a balanced, slow-release fertilizer."
-    }
-  },
-  {
-    "id": 32,
-    "name": "Ficus Teneke",
-    "botanical_name": "Ficus elastica tineke",
-    "price": 67,
-    "description": "Ficus Teneke, also known as Variegated Rubber Plant, features broad, glossy leaves with striking green, cream, and pink variegation. It is a resilient and attractive houseplant that can add a touch of elegance to indoor spaces.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/32-ficus-teneke-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/32-ficus-teneke-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/32-ficus-teneke-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/32-ficus-teneke-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/32-ficus-teneke-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light to maintain its variegation. Water when the top inch of soil is dry, ensuring thorough watering and allowing excess water to drain away. Use a well-draining potting mix and a pot with drainage holes. Fertilize every 2-3 months during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 35,
-    "name": "Ficus Ginseng",
-    "botanical_name": "Ficus microcarpa",
-    "price": 57,
-    "description": "Ficus Ginseng is a unique and ornamental houseplant known for its thick, pot-bellied trunk and glossy, oval-shaped leaves. This bonsai-style plant adds a touch of elegance and interest to indoor spaces with its sculptural appearance.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/35-ficus-ginseng-stone.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/35-ficus-ginseng-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/35-ficus-ginseng-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Ficus Ginseng in bright, indirect light. Water moderately, allowing the top inch of soil to dry out between waterings. Maintain high humidity by misting regularly, and feed with a balanced liquid fertilizer every 4-6 weeks during the growing season."
-    }
-  },
-  {
     "id": 1,
-    "name": "Zanzibar Gem",
-    "botanical_name": "Zamioculcas zamiifolia",
-    "price": 97,
-    "description": "The Zanzibar Gem, also known as Zamioculcas zamiifolia, is a hardy houseplant appreciated for its lush, glossy green foliage. Its thick, waxy leaves are designed to retain water, making it highly drought-tolerant and perfect for low-maintenance indoor environments. This resilient plant can thrive in low light conditions and requires minimal care, making it a popular choice for both novice and experienced plant enthusiasts. With its upright, sculptural growth habit, the Zanzibar Gem adds a touch of elegance and greenery to any space.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/1-zanzibar-gem-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/1-zanzibar-gem-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/1-zanzibar-gem-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/1-zanzibar-gem-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/1-zanzibar-gem-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "To care for a Zanzibar Gem plant, place it in a location with low to bright indirect light, as it is highly adaptable and can tolerate low-light conditions. Water the plant sparingly, allowing the soil to dry out completely between waterings to avoid overwatering, which can lead to root rot. Ensure the plant is in a well-draining potting mix and a pot with drainage holes to prevent water accumulation. Fertilize the plant lightly every 2-3 months during the growing season (spring and summer) with a diluted balanced fertilizer, but it can thrive even with minimal feeding."
-    }
-  },
-  {
-    "id": 25,
-    "name": "Kimberly Queen Fern",
-    "botanical_name": "Nephrolepis obliterata",
-    "price": 57,
-    "description": "The Kimberly Queen Fern is a lush, evergreen fern with upright, sword-shaped fronds that add a touch of elegance to indoor and outdoor spaces. It is known for its resilience and ease of care.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/25-kimberly-queen-fern-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/25-kimberly-queen-fern-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/25-kimberly-queen-fern-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/25-kimberly-queen-fern-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/25-kimberly-queen-fern-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Kimberly Queen Fern in bright, indirect light or partial shade. Keep the soil consistently moist but not waterlogged, and ensure good drainage. Maintain high humidity by misting the fronds regularly or using a humidity tray. Fertilize monthly during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 17,
-    "name": "Peace Lily",
-    "botanical_name": "Spathiphyllum",
-    "price": 67,
-    "description": "The Peace Lily is a popular indoor plant admired for its lush, dark green leaves and elegant white flowers. It is known for its air-purifying qualities and its ability to thrive in low-light conditions.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/17-peace-lily-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/17-peace-lily-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/17-peace-lily-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/17-peace-lily-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/17-peace-lily-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Peace Lily in low to bright indirect light. Keep the soil consistently moist but not waterlogged, and mist the leaves regularly to maintain humidity. Fertilize every 6-8 weeks during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 42,
-    "name": "Bamboo Palm",
-    "botanical_name": "Chamaedorea seifrizii",
-    "price": 167,
-    "description": "The Bamboo Palm is a graceful, clumping palm with thin, reed-like stems and feathery, arching fronds. It is an effective air purifier and adds a touch of tropical elegance to indoor spaces.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/42-bamboo-palm-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/42-bamboo-palm-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/42-bamboo-palm-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/42-bamboo-palm-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/42-bamboo-palm-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light but can tolerate low light. Water consistently to keep the soil lightly moist but not soggy. Prefers higher humidity and benefits from regular misting. Fertilize monthly during the growing season with a balanced liquid fertilizer."
-    }
-  },
-  {
-    "id": 24,
-    "name": "Lil Fiddle Leaf Fig",
-    "botanical_name": "Ficus lyrata",
-    "price": 67,
-    "description": "The small Fiddle Leaf Fig is a compact version of the popular Fiddle Leaf Fig, characterized by its large, violin-shaped leaves that add a bold, architectural element to any indoor space.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/24-lil-fiddle-leaf-fig-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/24-lil-fiddle-leaf-fig-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/24-lil-fiddle-leaf-fig-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/24-lil-fiddle-leaf-fig-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/24-lil-fiddle-leaf-fig-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Small Fiddle Leaf Fig in bright, indirect light, avoiding direct sunlight. Water it when the top inch of soil feels dry, ensuring the soil is well-drained. Maintain moderate humidity and avoid drafts. Fertilize every 4-6 weeks during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 11,
-    "name": "Red Anthurium",
-    "botanical_name": "Anthurium andraeanum",
-    "price": 37,
-    "description": "The Red Anthurium, also known as the Flamingo Flower, is prized for its glossy, heart-shaped leaves and vibrant red spathes that surround a yellow or white spadix. It is a popular choice for adding a tropical touch to indoor spaces.",
-    "images": [
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/11-red-anthurium-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/11-red-anthurium-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light and water when the top inch of soil feels dry. Ensure high humidity and avoid drafts. Fertilize every 6-8 weeks during the growing season with a high-phosphorus fertilizer to encourage blooming."
-    }
-  },
-  {
-    "id": 6,
-    "name": "Money Tree Forest",
-    "botanical_name": "Pachira aquatica",
-    "price": 77,
-    "description": "The Money Tree is a popular indoor plant known for its braided trunk and lush, green leaves. It's often associated with bringing good luck and prosperity to its owner. This plant group consits of multiple money trees for extra luck!",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/6-money-tree-forest-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/6-money-tree-forest-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/6-money-tree-forest-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/6-money-tree-forest-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/6-money-tree-forest-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the plant in bright, indirect light. Water it thoroughly when the top inch of soil is dry, but avoid letting it sit in water. Maintain moderate humidity and fertilize once a month during the growing season with a balanced liquid fertilizer."
-    }
-  },
-  {
-    "id": 15,
-    "name": "Philodendron Heartleaf",
-    "botanical_name": "Philodendron hederaceum",
-    "price": 37,
-    "description": "The Philodendron Heartleaf is a popular vining houseplant known for its heart-shaped, dark green leaves. It is easy to care for and can thrive in various indoor conditions, making it a favorite among plant enthusiasts.",
-    "images": [
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/15-philodendron-heartleaf-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/15-philodendron-heartleaf-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/15-philodendron-heartleaf-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Philodendron Heartleaf in bright, indirect light, but it can also tolerate low light conditions. Water when the top inch of soil feels dry, and ensure the pot has good drainage. Maintain a humid environment and mist the leaves occasionally. Fertilize monthly during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 41,
-    "name": "Big Sansevieria",
-    "botanical_name": "Sansevieria trifasciata",
-    "price": 137,
-    "description": "Commonly known as Snake Plant or Mother-in-law's Tongue, this hardy plant is known for its upright, sword-like leaves with green and yellow variegation. It's an excellent air purifier and very low-maintenance.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/41-big-sansevieria-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/41-big-sansevieria-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/41-big-sansevieria-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/41-big-sansevieria-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/41-big-sansevieria-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in indirect light or low light conditions. Water sparingly, allowing the soil to dry out completely between waterings. It tolerates neglect and thrives with minimal care, requiring occasional feeding with a balanced fertilizer."
-    }
-  },
-  {
-    "id": 38,
-    "name": "Burgundy Rubber Tree",
-    "botanical_name": "Ficus elastica",
-    "price": 87,
-    "description": "The Burgundy Rubber Tree is a popular houseplant with large, glossy leaves that are deep burgundy in color. Its bold foliage and easy care make it a striking and low-maintenance addition to any indoor space.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/38-burgundy-rubber-tree-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/38-burgundy-rubber-tree-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/38-burgundy-rubber-tree-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/38-burgundy-rubber-tree-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/38-burgundy-rubber-tree-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Burgundy Rubber Tree in bright, indirect light, though it can tolerate lower light conditions. Water when the top inch of soil is dry, ensuring proper drainage to prevent overwatering. Feed with a balanced liquid fertilizer every 2-3 months during the growing season."
-    }
-  },
-  {
-    "id": 22,
-    "name": "Money Tree",
-    "botanical_name": "Pachira aquatica",
-    "price": 157,
-    "description": "The Money Tree is a popular houseplant known for its braided trunk and glossy green leaves. It is often associated with good luck and prosperity, making it a favored choice for homes and offices.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/22-money-tree-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/22-money-tree-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/22-money-tree-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/22-money-tree-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/22-money-tree-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light. Water thoroughly when the top inch of soil is dry, ensuring good drainage. Maintain moderate humidity and keep away from cold drafts. Fertilize every 2-3 months during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 4,
-    "name": "Summer Bromeliad",
-    "botanical_name": "Bromeliaceae",
-    "price": 37,
-    "description": "Bromeliad Summer is a striking plant known for its vibrant, long-lasting flower bracts and rosette of stiff, arching leaves. These tropical beauties bring a splash of color to indoor environments and are admired for their exotic appearance.",
-    "images": [
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/4-summer-bromeliad-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/4-summer-bromeliad-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Bromeliad Summer in bright, indirect light to promote flowering. Water the central cup formed by its leaves and keep it filled with water, while ensuring the soil is moist but not waterlogged. Maintain high humidity levels and avoid letting the plant sit in water to prevent root rot. Fertilize lightly every 2-4 weeks during the growing season with a diluted balanced fertilizer."
-    }
-  },
-  {
-    "id": 37,
-    "name": "Calathea Pinstripe",
-    "botanical_name": "Calathea ornata",
-    "price": 47,
-    "description": "Calathea Pinstripe is a stunning houseplant known for its dark green leaves adorned with pink or white pinstripes. The underside of the leaves is a rich purple, adding to its visual appeal and making it a favorite among plant enthusiasts.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/37-calathea-pinstripe-stone.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/37-calathea-pinstripe-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/37-calathea-pinstripe-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Calathea Pinstripe in bright, indirect light and keep the soil consistently moist but not soggy. Maintain high humidity by misting regularly or using a humidifier, and fertilize monthly with a balanced, water-soluble fertilizer during the growing season."
-    }
-  },
-  {
-    "id": 20,
-    "name": "Monstera",
-    "botanical_name": "Monstera deliciosa",
-    "price": 157,
-    "description": "The Monstera, commonly referred to as the Swiss Cheese Plant, is a tropical houseplant known for its large, perforated leaves. Its striking foliage features distinctive splits and holes, giving it a unique, exotic appearance that adds a dramatic flair to indoor spaces.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/20-monstera-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/20-monstera-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/20-monstera-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/20-monstera-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/20-monstera-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light. Water when the top inch of soil is dry, ensuring thorough drainage. Maintain humidity by misting the leaves or using a humidity tray. Fertilize every 4-6 weeks during spring and summer with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 21,
-    "name": "Monstera Adansonii",
-    "botanical_name": "Monstera Adansonii",
-    "price": 67,
-    "description": "Monstera Adansonii, often called the Swiss Cheese Vine, is a popular houseplant known for its unique, hole-filled leaves. Its trailing habit and vibrant green foliage make it a striking addition to any indoor plant collection.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/21-monstera-adansonii-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/21-monstera-adansonii-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/21-monstera-adansonii-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/21-monstera-adansonii-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/21-monstera-adansonii-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light. Water when the top inch of soil is dry, ensuring the soil remains moist but not soggy. Maintain high humidity by misting the leaves regularly. Fertilize monthly during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 34,
-    "name": "Colourful Set",
-    "botanical_name": "Mixed Group",
-    "price": 117,
-    "description": "Want something more than green? The plants offer a pop of color. You'll get Red Anthurium, Yellow Bromeliad, and Bromeliad Summer. Each include their own vibrant, long-lasting flowers that will brighten up your home. Cool!",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/34-colourful-set-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/34-colourful-set-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/34-colourful-set-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/34-colourful-set-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light.  Use a well-draining potting mix and a pot with drainage holes. Fertilize every 2-3 months during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 26,
-    "name": "Low Water Set",
-    "botanical_name": "Mixed Set",
-    "price": 67,
-    "description": "This set is perfect for beginners. Three easy and adaptable plants, including a Sansevieria, ZZ Plant, and Hoya variety",
-    "images": [
-      {
-        "pot_color": "black",
-        "src": "/images/plants/26-low-water-set-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the these in indirect light or partial shade. These require very little water and will thrive on their own."
-    }
-  },
-  {
-    "id": 12,
-    "name": "Raven Zanzibar Gem",
-    "botanical_name": "Zamioculcas zamiifolia raven",
-    "price": 67,
-    "description": "he Raven Zanzibar Gem is a striking variety of the traditional Zanzibar Gem, distinguished by its dark, almost black foliage. It is a hardy and low-maintenance plant, perfect for modern interiors.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/12-raven-zanzibar-gem-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/12-raven-zanzibar-gem-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/12-raven-zanzibar-gem-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/12-raven-zanzibar-gem-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/12-raven-zanzibar-gem-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in low to bright indirect light and water sparingly, allowing the soil to dry out completely between waterings. Use a well-draining potting mix and a pot with drainage holes. Fertilize lightly every 2-3 months during the growing season with a diluted balanced fertilizer."
-    }
-  },
-  {
-    "id": 16,
-    "name": "Philodendron Birkin",
-    "botanical_name": "Philodendron birkin",
-    "price": 37,
-    "description": "The Philodendron Birkin is a stunning houseplant known for its dark green leaves adorned with striking white pinstripes. Its compact and upright growth makes it an elegant addition to any indoor space.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/16-philodendron-birkin-stone.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/16-philodendron-birkin-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/16-philodendron-birkin-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Philodendron Birkin in bright, indirect light. Water when the top inch of soil feels dry, ensuring good drainage. Maintain a moderate humidity level and fertilize monthly during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 40,
-    "name": "Bird of Paradise",
-    "botanical_name": "Strelitzia reginae",
-    "price": 187,
-    "description": "The Bird of Paradise is a striking tropical plant known for its vibrant orange and blue flowers that resemble a bird in flight. It features large, banana-like leaves that add a lush, exotic feel to any space.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/40-bird-of-paradise-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/40-bird-of-paradise-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/40-bird-of-paradise-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/40-bird-of-paradise-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/40-bird-of-paradise-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place in bright, indirect light or direct sunlight for best flowering. Water thoroughly when the top inch of soil is dry, and ensure good drainage. Maintain high humidity and fertilize every 2-4 weeks during the growing season with a balanced fertilizer."
-    }
-  },
-  {
-    "id": 18,
-    "name": "Parlor Palm",
-    "botanical_name": "Chamaedorea elegans",
-    "price": 57,
-    "description": "The Parlor Palm is a classic houseplant known for its graceful, arching fronds and ability to thrive in low light. It adds a touch of tropical elegance to any indoor setting and is easy to care for.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/18-parlor-palm-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/18-parlor-palm-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/18-parlor-palm-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/18-parlor-palm-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/18-parlor-palm-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Parlor Palm in low to bright indirect light. Water when the top inch of soil is dry, and ensure good drainage to prevent root rot. Maintain moderate humidity and fertilize monthly during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 9,
-    "name": "Sansevieria zeylanica",
-    "botanical_name": "Sansevieria zeylanica",
-    "price": 57,
-    "description": "Sansevieria zeylanica, commonly known as the Ceylon Bowstring Hemp, features long, sword-shaped leaves with dark green cross-banding. It's a robust and low-maintenance plant perfect for beginners.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/9-sansevieria-zeylanica-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/9-sansevieria-zeylanica-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/9-sansevieria-zeylanica-sky.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Sansevieria zeylanica thrives in bright, indirect light but can tolerate low light conditions. Water the plant sparingly, allowing the soil to dry out completely between waterings. It's tolerant of dry air and requires minimal feeding; fertilize once during the growing season with a cactus or succulent fertilizer."
-    }
-  },
-  {
-    "id": 39,
-    "name": "Dracaena Golden Heart",
-    "botanical_name": "Dracaena fragrans",
-    "price": 87,
-    "description": "Dracaena Golden Heart is a striking houseplant with variegated leaves featuring bright green centers and golden-yellow edges. Its tall, upright growth habit makes it an attractive addition to any room, bringing a touch of tropical flair.",
-    "images": [
-      {
-        "pot_color": "stone",
-        "src": "/images/plants/39-dracaena-golden-heart-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/39-dracaena-golden-heart-slate.jpeg"
-      },
-      {
-        "pot_color": "sky",
-        "src": "/images/plants/39-dracaena-golden-heart-sky.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/39-dracaena-golden-heart-black.jpeg"
-      },
-      {
-        "pot_color": "amber",
-        "src": "/images/plants/39-dracaena-golden-heart-amber.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Dracaena Golden Heart in bright, indirect light, though it can tolerate lower light levels. Water when the top inch of soil feels dry, and ensure proper drainage to prevent root rot. Fertilize every 2-3 months during the growing season with a balanced, water-soluble fertilizer."
-    }
-  },
-  {
-    "id": 5,
-    "name": "Snake Plant",
-    "botanical_name": "Sansevieria trifasciata",
-    "price": 27,
-    "description": "The Snake Plant, also known as Mother-in-Law's Tongue, is a hardy succulent known for its tall, upright leaves with striking green and yellow variegation. This low-maintenance plant is perfect for beginners and can thrive in a variety of indoor conditions.",
-    "images": [
-      {
-        "pot_color": "white",
-        "src": "/images/plants/5-snake-plant-white.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/5-snake-plant-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Snake Plant in bright, indirect light, although it can tolerate low light levels. Allow the soil to dry out completely between waterings, as overwatering can cause root rot. Provide well-draining soil and a pot with drainage holes. Fertilize sparingly, once every 2-3 months, with a balanced, water-soluble fertilizer during the growing season."
-    }
-  },
-  {
-    "id": 13,
-    "name": "Pothos Set",
+    "name": "Golden Pothos",
     "botanical_name": "Epipremnum aureum",
-    "price": 57,
-    "description": "This adorable and lively trio of pothos is ready to sit front and center on your shelf or windowsill. This set consists of the Pearls & Jade, Marble Queen, and Golden Pothos, each with its own striking variegation. Happiest in bright indirect light, this group of easy, trailing plants makes for a thoughtful gift or a stunning addition to your own collection.",
-    "images": [
-      {
-        "pot_color": "white",
-        "src": "/images/plants/13-pothos-set-white.jpeg"
-      },
-      {
-        "pot_color": "black",
-        "src": "/images/plants/13-pothos-set-black.jpeg"
-      }
-    ],
-    "extra": {
-      "care_instructions": "Place the Pothos plants in bright, indirect light, though it can tolerate low light. Water when the top inch of soil is dry, and ensure the pot has good drainage. Fertilize monthly during the growing season with a balanced, water-soluble fertilizer. Prune as needed to maintain the desired shape and encourage bushier growth."
-    }
-  },
-  {
-    "id": 19,
-    "name": "Neon Prayer Plant",
-    "botanical_name": "Maranta leuconeura neon",
-    "price": 67,
-    "description": "The Neon Prayer Plant is a vibrant houseplant known for its striking, neon-green leaves with dark green veins. Its unique foliage folds up at night, giving it the name 'prayer plant.'",
+    "price": 24,
+    "description": "A cheerful trailing plant with heart-shaped leaves splashed in green and gold. It grows happily on a shelf or a desk and forgives the occasional missed watering, which makes it a great first plant. Give it medium, indirect light and water once the top of the soil feels dry.",
     "images": [
       {
         "pot_color": "stone",
-        "src": "/images/plants/19-neon-prayer-plant-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/19-neon-prayer-plant-slate.jpeg"
+        "src": "/images/plants/golden-pothos-stone.jpg"
       },
       {
         "pot_color": "sky",
-        "src": "/images/plants/19-neon-prayer-plant-sky.jpeg"
+        "src": "/images/plants/golden-pothos-sky.jpg"
       },
       {
         "pot_color": "black",
-        "src": "/images/plants/19-neon-prayer-plant-black.jpeg"
+        "src": "/images/plants/golden-pothos-black.jpg"
       },
       {
         "pot_color": "amber",
-        "src": "/images/plants/19-neon-prayer-plant-amber.jpeg"
+        "src": "/images/plants/golden-pothos-amber.jpg"
       }
-    ],
-    "extra": {
-      "care_instructions": "Place the Neon Prayer Plant in bright, indirect light. Keep the soil consistently moist but not waterlogged, and provide high humidity by misting the leaves or using a humidity tray. Fertilize every 4-6 weeks during the growing season with a balanced, water-soluble fertilizer."
-    }
+    ]
   },
   {
     "id": 2,
-    "name": "Whale Fin Sansevieria",
-    "botanical_name": "Sansevieria masoniana",
-    "price": 67,
-    "description": "The Whale Fin Sansevieria, also known as Sansevieria masoniana, is a striking succulent recognized for its large, paddle-shaped leaves that resemble a whale's fin. Its leaves are typically dark green with lighter, mottled patterns, making it a standout addition to any plant collection. This hardy plant is low-maintenance and can tolerate a wide range of indoor conditions, including low light and infrequent watering. The Whale Fin Sansevieria's unique appearance and resilience make it a popular choice for both beginners and experienced plant enthusiasts.",
+    "name": "Fiddle Leaf Fig",
+    "botanical_name": "Ficus lyrata",
+    "price": 58,
+    "description": "Big, glossy leaves shaped like a violin turn this little tree into the star of any room. Pick a bright spot, keep it there, and wipe the leaves now and then so they can soak up the light. Water when the top few centimeters of soil are dry.",
     "images": [
       {
         "pot_color": "stone",
-        "src": "/images/plants/2-whale-fin-sansevieria-stone.jpeg"
-      },
-      {
-        "pot_color": "slate",
-        "src": "/images/plants/2-whale-fin-sansevieria-slate.jpeg"
+        "src": "/images/plants/fiddle-leaf-fig-stone.jpg"
       },
       {
         "pot_color": "sky",
-        "src": "/images/plants/2-whale-fin-sansevieria-sky.jpeg"
+        "src": "/images/plants/fiddle-leaf-fig-sky.jpg"
       },
       {
         "pot_color": "black",
-        "src": "/images/plants/2-whale-fin-sansevieria-black.jpeg"
+        "src": "/images/plants/fiddle-leaf-fig-black.jpg"
       },
       {
         "pot_color": "amber",
-        "src": "/images/plants/2-whale-fin-sansevieria-amber.jpeg"
+        "src": "/images/plants/fiddle-leaf-fig-amber.jpg"
       }
-    ],
-    "extra": {
-      "care_instructions": "To care for a Whale Fin Sansevieria, place it in bright, indirect light, though it can also adapt to lower light conditions. Water the plant sparingly, allowing the soil to dry out completely between waterings, as it is highly drought-tolerant and prone to root rot if overwatered. Use a well-draining potting mix and a pot with drainage holes to ensure proper drainage. Fertilize the plant once every 2-3 months during the growing season (spring and summer) with a balanced, diluted fertilizer, though it can thrive with minimal feeding."
-    }
+    ]
   },
   {
-    "id": 36,
-    "name": "Cat Palm",
-    "botanical_name": "Chamaedorea cataractarum",
-    "price": 157,
-    "description": "The Cat Palm is a lush, clump-forming palm with feathery, arching fronds that create a dense, tropical look. Perfect for adding greenery to indoor spaces, this plant is beloved for its air-purifying qualities and elegant appearance.",
+    "id": 3,
+    "name": "Mini Monstera",
+    "botanical_name": "Rhaphidophora tetrasperma",
+    "price": 46,
+    "description": "It looks like a monstera that shrank to apartment size, although it is a different plant altogether. The split leaves grow fast and love to climb, so add a small trellis when you are ready. Bright, indirect light and evenly moist soil keep it going.",
     "images": [
       {
         "pot_color": "stone",
-        "src": "/images/plants/36-cat-palm-stone.jpeg"
+        "src": "/images/plants/mini-monstera-stone.jpg"
       },
       {
-        "pot_color": "slate",
-        "src": "/images/plants/36-cat-palm-slate.jpeg"
+        "pot_color": "black",
+        "src": "/images/plants/mini-monstera-black.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Money Tree",
+    "botanical_name": "Pachira aquatica",
+    "price": 52,
+    "description": "A braided trunk topped with a canopy of bright green leaves, often given as a wish for good luck. It brings a touch of the tropics to a living room or an office. Place it in bright, indirect light and let the soil dry a little between deep waterings.",
+    "images": [
+      {
+        "pot_color": "stone",
+        "src": "/images/plants/money-tree-stone.jpg"
       },
       {
         "pot_color": "sky",
-        "src": "/images/plants/36-cat-palm-sky.jpeg"
+        "src": "/images/plants/money-tree-sky.jpg"
       },
       {
         "pot_color": "black",
-        "src": "/images/plants/36-cat-palm-black.jpeg"
+        "src": "/images/plants/money-tree-black.jpg"
       },
       {
         "pot_color": "amber",
-        "src": "/images/plants/36-cat-palm-amber.jpeg"
+        "src": "/images/plants/money-tree-amber.jpg"
       }
-    ],
-    "extra": {
-      "care_instructions": "Place the Cat Palm in bright, indirect light, and keep the soil consistently moist but not waterlogged. High humidity is beneficial, so mist the fronds regularly or use a humidity tray. Feed with a balanced liquid fertilizer every 4-6 weeks during the growing season."
-    }
+    ]
   },
   {
-    "id": 27,
-    "name": "Hoya Heart",
-    "botanical_name": "Hoya kerrii",
-    "price": 27,
-    "description": "The Hoya Heart, also known as the Sweetheart Plant, is a charming succulent known for its thick, heart-shaped leaves. It is a slow-growing, low-maintenance plant often given as a symbol of love and affection.",
+    "id": 5,
+    "name": "Peace Lily",
+    "botanical_name": "Spathiphyllum",
+    "price": 38,
+    "description": "Elegant white blooms rise above deep green leaves, even in rooms without much sun. It tells you when it is thirsty: the leaves droop, then perk up again soon after a drink. Keep the soil lightly moist and the plant out of direct sunlight.",
     "images": [
       {
+        "pot_color": "sky",
+        "src": "/images/plants/peace-lily-sky.jpg"
+      },
+      {
         "pot_color": "black",
-        "src": "/images/plants/27-hoya-heart-black.jpeg"
+        "src": "/images/plants/peace-lily-black.jpg"
+      },
+      {
+        "pot_color": "amber",
+        "src": "/images/plants/peace-lily-amber.jpg"
       }
-    ],
-    "extra": {
-      "care_instructions": "Place the Hoya Heart in bright, indirect light to maintain its vibrant green color and healthy growth. Water sparingly, allowing the soil to dry out completely between waterings to prevent root rot, as it is highly drought-tolerant. Ensure it is planted in well-draining soil and a pot with drainage holes. Fertilize sparingly, only once or twice a year, with a balanced, diluted fertilizer during the growing season."
-    }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Prayer Plant",
+    "botanical_name": "Maranta leuconeura",
+    "price": 32,
+    "description": "Painted leaves with bright red veins lie open by day and fold upward at night, like hands in prayer. It enjoys warmth, humidity and soft, filtered light. Water with room-temperature water before the soil dries out completely.",
+    "images": [
+      {
+        "pot_color": "stone",
+        "src": "/images/plants/prayer-plant-stone.jpg"
+      },
+      {
+        "pot_color": "sky",
+        "src": "/images/plants/prayer-plant-sky.jpg"
+      },
+      {
+        "pot_color": "black",
+        "src": "/images/plants/prayer-plant-black.jpg"
+      },
+      {
+        "pot_color": "amber",
+        "src": "/images/plants/prayer-plant-amber.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Snake Plant",
+    "botanical_name": "Dracaena trifasciata",
+    "price": 34,
+    "description": "Tall, upright leaves with golden edges give this plant a clean, modern look. It copes with low light, dry air and busy owners better than almost anything else. Water only when the soil has dried out completely, and even less in winter.",
+    "images": [
+      {
+        "pot_color": "stone",
+        "src": "/images/plants/snake-plant-stone.jpg"
+      },
+      {
+        "pot_color": "sky",
+        "src": "/images/plants/snake-plant-sky.jpg"
+      },
+      {
+        "pot_color": "black",
+        "src": "/images/plants/snake-plant-black.jpg"
+      },
+      {
+        "pot_color": "amber",
+        "src": "/images/plants/snake-plant-amber.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "ZZ Plant",
+    "botanical_name": "Zamioculcas zamiifolia",
+    "price": 36,
+    "description": "Arching stems lined with shiny leaves make this plant look freshly polished every day. It stores water underground, so it can wait patiently while you are on vacation. Low to bright indirect light is fine; let the soil dry fully before watering.",
+    "images": [
+      {
+        "pot_color": "stone",
+        "src": "/images/plants/zz-plant-stone.jpg"
+      },
+      {
+        "pot_color": "sky",
+        "src": "/images/plants/zz-plant-sky.jpg"
+      },
+      {
+        "pot_color": "black",
+        "src": "/images/plants/zz-plant-black.jpg"
+      },
+      {
+        "pot_color": "amber",
+        "src": "/images/plants/zz-plant-amber.jpg"
+      }
+    ]
   }
 ]

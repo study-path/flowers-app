@@ -2,6 +2,7 @@ import SessionContext from "contexts/SessionContext";
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import CartModal from "./modals/CartModal";
+import Logo from "shared-components/Logo";
 
 import ModalWrapper from "./modals/ModalWrapper";
 import MobileModalMenu from "./modals/MobileModalMenu";
@@ -20,10 +21,7 @@ const NavBar = () => {
         <div className="w-full max-w-5xl flex items-center justify-between px-8 py-2">
           <Link to="/plants">
             <div className="font-playfair text-white text-2xl flex flex-col items-center">
-              <img
-                src="/images/logo_light.png"
-                className="w-10"
-              />
+              <Logo className="w-14 text-emerald-50" weight={4} />
               Home plants
             </div>
           </Link>

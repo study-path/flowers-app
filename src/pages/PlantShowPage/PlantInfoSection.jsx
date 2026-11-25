@@ -18,7 +18,11 @@ const PlantInfoSection = (props) => {
           <PlantHeading plant={plant} />
         </div>
         <Zoom>
-          <img className="rounded-lg" src={plant.images[imageIdx].src} />
+          <img
+            className="rounded-lg"
+            src={plant.images[imageIdx].src}
+            alt={`${plant.name} in a ${plant.images[imageIdx].pot_color} pot`}
+          />
         </Zoom>
 
         <div className="flex justify-between mt-2 ">

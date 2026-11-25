@@ -39,10 +39,13 @@ export const applySchema = async () => {
 };
 
 /**
- * Insert or update the catalog from data/plants.json. Safe to run repeatedly:
- * plants are matched by name, so existing ids (and carts that point at them) stay valid.
+ * Make the catalog match data/plants.json. Safe to run repeatedly: plants are matched
+ * by name, so existing ids (and carts that point at them) stay valid. Plants and pot
+ * colors that are no longer in the file are removed, together with their cart items.
  */
 export const seedPlants = async (plants) => {
+  // never empty the shop because of a bad or missing file
+  if (!Array.isArray(plants) || plants.length === 0) throw new Error("no plants to load");
   for (const plant of plants) {
     const [{ id }] = await query(
       `INSERT INTO plants (name, botanical_name, price, description)
@@ -63,5 +66,24 @@ export const seedPlants = async (plants) => {
         [id, image.pot_color, image.src, position],
       );
     }
+    await query(
+      `DELETE FROM plant_images
+       WHERE plant_id = $1
+         AND pot_color NOT IN (SELECT jsonb_array_elements_text($2::jsonb))`,
+      [id, JSON.stringify((plant.images ?? []).map((image) => image.pot_color))],
+    );
   }
+
+  await query(
+    `DELETE FROM plants
+     WHERE name NOT IN (SELECT jsonb_array_elements_text($1::jsonb))`,
+    [JSON.stringify(plants.map((plant) => plant.name))],
+  );
+  await query(
+    `DELETE FROM cart_items c
+     WHERE NOT EXISTS (
+       SELECT 1 FROM plant_images i
+       WHERE i.plant_id = c.plant_id AND i.pot_color = c.pot_color
+     )`,
+  );
 };

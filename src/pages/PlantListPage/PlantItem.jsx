@@ -22,7 +22,8 @@ const PlantItem = (props) => {
       <Link to={`/plants/${plant.id}`}>
         <img
           src={plant.images[imageIdx].src}
-          className="w-[280px] h-[320px] rounded-t-md"
+          alt={`${plant.name} in a ${plant.images[imageIdx].pot_color} pot`}
+          className="w-[280px] h-[320px] object-cover object-bottom rounded-t-md"
         />
       </Link>
       <div className="flex justify-between mx-2">
