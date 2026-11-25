@@ -29,7 +29,7 @@ const PlantInfoSection = (props) => {
           />
           <div className="bg-slate-300 w-px "></div>
           <BenefitBox
-            icon="fa-regular fa-truck-fast"
+            icon="fa-solid fa-truck-fast"
             title="Free shipping"
             description="Get free ground shippingon orders over $50"
           />
