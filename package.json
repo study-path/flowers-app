@@ -5,11 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:api": "node scripts/dev-api.mjs",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "export-data": "node --env-file=.env scripts/export-data.mjs",
+    "db:seed": "node --env-file-if-exists=.env.local scripts/seed.mjs"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.2.1",
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.18",
     "jwt-decode": "^4.0.0",
     "motion": "^12.42.2",
     "react": "^19.2.5",
@@ -20,6 +26,7 @@
     "vite-jsconfig-paths": "^2.0.1"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.6.0",
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",

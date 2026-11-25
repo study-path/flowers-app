@@ -4,7 +4,7 @@ const FormContainer = (props) => {
     <div className="flex ">
       <div className="relative hidden md:flex">
         <img
-          src="https://static-task-assets.react-formula.com/capstone_sign_in_scene.png"
+          src="/images/sign_in_scene.png"
           className="h-screen object-cover"
         />
         {/* adjust image color to dark and green */}
@@ -16,7 +16,7 @@ const FormContainer = (props) => {
       <div className="flex flex-1 items-center justify-center  h-screen bg-green-50">
         <div className=" flex flex-col items-center my-8">
           <img
-            src="https://static-task-assets.react-formula.com/capstone_logo_dark.png"
+            src="/images/logo_dark.png"
             className="w-16 mb-2"
           />
 

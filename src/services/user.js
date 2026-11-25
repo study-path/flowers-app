@@ -12,15 +12,15 @@ export const createSession = ({ username, password }) =>
     password,
   });
 
-const CAPSTONE_SESSION_STORAGE_KEY = "capstone_session_token";
+const SESSION_STORAGE_KEY = "session_token";
 
-export const setSessionTokenStorage = (capstoneSessionToken) =>
-  localStorage.setItem(CAPSTONE_SESSION_STORAGE_KEY, capstoneSessionToken);
+export const setSessionTokenStorage = (sessionToken) =>
+  localStorage.setItem(SESSION_STORAGE_KEY, sessionToken);
 
 export const getSessionTokenStorage = () => {
-  return localStorage.getItem(CAPSTONE_SESSION_STORAGE_KEY);
+  return localStorage.getItem(SESSION_STORAGE_KEY);
 };
 
 export const removeSessionTokenStorage = () => {
-  return localStorage.removeItem(CAPSTONE_SESSION_STORAGE_KEY);
+  return localStorage.removeItem(SESSION_STORAGE_KEY);
 };

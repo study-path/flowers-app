@@ -21,7 +21,7 @@ const NavBar = () => {
           <Link to="/plants">
             <div className="font-playfair text-white text-2xl flex flex-col items-center">
               <img
-                src="https://static-task-assets.react-formula.com/capstone_logo_light.png"
+                src="/images/logo_light.png"
                 className="w-10"
               />
               Home plants
