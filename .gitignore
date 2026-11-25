@@ -28,3 +28,6 @@ dist-ssr
 # Local dev database and Vercel CLI
 .local-db
 .vercel
+
+# Original pictures before compression
+new-photos

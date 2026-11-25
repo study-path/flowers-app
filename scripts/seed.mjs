@@ -3,7 +3,7 @@
 //   npm run db:seed
 //
 // DATABASE_URL is read from .env.local (copy the connection string from the Neon
-// dashboard). Safe to run again.
+// dashboard). Safe to run again. Plants that are no longer in the file are removed.
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { query } from "../api/_lib/db.js";

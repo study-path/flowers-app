@@ -1,13 +1,14 @@
 import NavBar from "shared-components/NavBar";
 import RedirectToSignInIfSignedOut from "shared-components/RedirectToSignInIfSignedOut";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import * as plantService from "services/plant";
 import LoadingSpinner from "shared-components/LoadingSpinner";
 import PlantInfoSection from "./PlantInfoSection";
 
 const PlantShowPage = () => {
   const { plantId } = useParams();
+  const navigate = useNavigate();
 
   const [plant, setPlant] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -17,10 +18,16 @@ const PlantShowPage = () => {
       //setIsLoading(true);
       const response = await plantService.getPlantById({ id: plantId });
 
+      // for example an old link to a plant that is no longer sold
+      if (!response.ok) {
+        navigate("/plants", { replace: true });
+        return;
+      }
+
       setPlant(await response.json());
       setIsLoading(false);
     })();
-  }, [plantId]);
+  }, [plantId, navigate]);
 
   return (
     <RedirectToSignInIfSignedOut>

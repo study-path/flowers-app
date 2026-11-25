@@ -20,6 +20,20 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 const PORT = Number(process.env.API_PORT ?? 3001);
 process.env.JWT_SECRET ??= "local-dev-secret-do-not-use-in-production";
 
+// Stop early if another copy is running: two copies must not open the same database.
+await new Promise((resolve) => {
+  const probe = http.createServer();
+  probe.once("error", (err) => {
+    console.error(
+      err.code === "EADDRINUSE"
+        ? `Port ${PORT} is already in use. The API is probably running in another terminal — stop it there with Ctrl+C, then try again.`
+        : err.message,
+    );
+    process.exit(1);
+  });
+  probe.listen(PORT, () => probe.close(resolve));
+});
+
 // --- database -------------------------------------------------------------
 const db =
   process.env.LOCAL_DB === "memory" ? new PGlite() : new PGlite(path.join(ROOT, ".local-db"));
@@ -32,7 +46,7 @@ if (existsSync(plantsFile)) {
   await seedPlants(plants);
   console.log(`Seeded ${plants.length} plants from ${path.relative(ROOT, plantsFile)}`);
 } else {
-  console.warn(`No ${path.relative(ROOT, plantsFile)} yet — run "npm run export-data" first.`);
+  console.warn(`No ${path.relative(ROOT, plantsFile)} found — the catalog will be empty.`);
 }
 
 // --- routing (mirrors Vercel's file-based routes in /api) ------------------
